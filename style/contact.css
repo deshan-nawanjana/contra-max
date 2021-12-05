@@ -1,0 +1,145 @@
+body {
+	background: #111 !important;
+}
+
+.cb_cover {
+	width: 400px;
+	height: 100vh;
+	background: url('style/img/Deere-Own-It-Offer-1360x765.jpg') no-repeat;
+	background-position: center top;
+	background-size: cover;
+	float: left;
+}
+
+.cb_cover_inner {
+	width: 400px;
+	height: 100vh;
+	background: rgba(0,0,0,0.6);
+}
+
+.cb_corp {
+	font-size: 25px;
+	color: rgba(255,255,255,0.8);
+	font-family: 'Roboto Regular';
+	padding: 30px 30px 15px 30px;
+}
+
+.cb_line {
+	height: 2px;
+	background: rgba(255,255,255,0.7);
+	margin: 0px 30px 0px 30px;
+}
+
+.cb_title {
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+	font-family: 'Roboto Thin';
+	padding: 15px 30px 10px 30px;
+}
+
+.cb_mobi {
+	margin: 20px 30px 0px 30px;
+	color: rgba(0,0,0,0.8);
+	font-family: 'Roboto Light';
+	font-size: 22px;
+	background: #FFF;
+	padding: 14px 14px 14px 0px;
+	line-height: 27px;
+	font-weight: bold;
+}
+
+.cb_addr {
+	margin: 20px 30px 0px 30px;
+	color: rgba(0,0,0,0.8);
+	font-family: 'Roboto Light';
+	font-size: 16px;
+	background: #FFF;
+	padding: 14px 14px 14px 0px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.cb_icon {
+	float: left;
+	background-size: 20px auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 14px;
+	margin-top: -14px;
+	background-color: #111 !important;
+}
+
+.cbi_m {
+	width: 55px;
+	height: 55px;
+	background-color: #009933;
+	background-image: url('style/svg/mobi.svg');
+}
+
+.cbi_e {
+	width: 55px;
+	height: 55px;
+	background-color: #3333cc;
+	background-image: url('style/svg/emai.svg');
+}
+
+
+.cbi_a {
+	width: 55px;
+	height: 108px;
+	background-color: #cc0000;
+	background-image: url('style/svg/addr.svg');
+}
+
+.cb_form {
+	padding-left: 400px;
+}
+
+.msg_inp {
+	height: 50px;
+	border: 2px solid #555;
+	padding: 20px;
+	color: #AAA;
+	outline: none;
+	margin: 20px 20px 0px 20px;
+	background: #111;
+	font-family: 'Roboto Light';
+	font-size: 18px;
+	@width: calc(100vw - 440px);
+	transition: all 0.3s;
+	width: 500px;
+}
+
+.msg_inp:focus {
+	background: #333;
+	color: #FFF;
+}
+
+.msg_txt {
+	height: 200px;
+	border: 2px solid #555;
+	padding: 20px;
+	color: #AAA;
+	outline: none;
+	margin: 20px 20px 0px 20px;
+	background: #111;
+	font-family: 'Roboto Light';
+	font-size: 18px;
+	@width: calc(100vw - 440px);
+	transition: all 0.3s;
+	resize: none;
+	width: 500px;
+}
+
+.msg_txt:focus {
+	background: #333;
+	color: #FFF;
+}
+
+
+.fr_title {
+	font-size: 40px;
+	color: rgba(255,255,255,0.7);
+	font-family: 'Roboto Thin';
+	padding: 25px 30px 10px 30px;
+}
